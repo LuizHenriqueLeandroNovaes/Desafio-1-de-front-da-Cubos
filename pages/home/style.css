@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+header img{
+    width: 40px;
+    margin-left: 140px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: "Public Sans" , sans-serif;
+    margin-right: 120px;
+}
+
+header ul li:hover{
+    color: green;
+}
+
+.mudar_cor_home{
+    color: green;
+}
+
+.sec1{
+    position: relative;
+    width: 1110px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.texto{
+    position: absolute;
+    width: 445px;
+    height: 357px;
+    left: 55px;
+    bottom: 0;
+    background-color:white;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.botao1{
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    background-color: #203A4C;
+    Width:200px;
+    Height:48px;
+    font-size: 16px;
+    padding-right: 30px;
+    color: white;
+}
+
+.botao1 img{
+    width: 20px;
+}
+
+.div_da_imagem_botao{
+    width: 50px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.47);
+    text-align: center;
+    padding-top: 15px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+section img{
+    width: 1000px;
+}
+
+.texto_section_2{
+    width: 480px;
+    border-top:1px solid rgb(220, 220, 220);
+    border-bottom:1px solid rgb(220, 220, 220);
+    font-size: 18px;
+    padding: 20px 20px;
+    margin-right: 100px;
+   
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.texto_section_2 button{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: -40px;
+}
+
+
+
+.perfil_sobre{
+    display: flex;
+    justify-items: center;
+    margin-bottom: 80px;
+}
+
+.perfil img{
+    width: 440px;
+    margin-left: 100px;
+}
+
+.aviso_section_3{
+    font-size: 20px;
+    width: 450px;
+    margin-left: -45px;
+}
+
+button{
+    border: 2px solid rgb(220, 220, 220);
+    padding: 10px 20px 10px 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(35, 35, 35);
+    margin-top: 120px;
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    color:rgb(220, 220, 220);
+    align-items: center;
+    list-style: none;
+}
+
+ul li{
+    margin-right: 10px;
+
+}
+
